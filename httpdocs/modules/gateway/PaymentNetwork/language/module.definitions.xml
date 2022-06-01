@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions version="1.0">
+    <group name="payment_network">
+        <string name="merchant_id"><![CDATA[Merchant ID]]></string>
+        <string name="merchant_passphrase"><![CDATA[Merchant Signature Key]]></string>
+        <string name="integration_type"><![CDATA[Integration Type]]></string>
+        <string name="hosted"><![CDATA[Hosted]]></string>
+        <string name="embedded"><![CDATA[Embedded]]></string>
+        <string name="modal"><![CDATA[Modal]]></string>
+        <string name="payment_page_url"><![CDATA[Payment Page URL]]></string>
+        <string name="payment_page_url_default"><![CDATA[e.g. https://gateway.example.com/hosted/]]></string>
+        <string name="payment_page_url_default_value"><![CDATA[https://gateway.example.com/hosted/]]></string>
+    </group>
+</definitions>
