@@ -26,11 +26,11 @@ This CubeCart module provides an easy method to integrate with the payment gatew
 To rebrand this module, complete the following steps:
 
 1. In file `httpdocs/modules/gateway/PaymentNetwork/gateway.class.php` change the following:
-	- Line 7: `const API_ENDPOINT_HOSTED = 'https://gateway.example.com/hosted/';` change this URL to your gateway URL we supply
+	- Line 7: `const API_ENDPOINT_HOSTED = 'https://commerce-api.handpoint.com/hosted/';` change this URL to your gateway URL we supply
 2. Replace the logo.gif with your own logo in directory: `httpdocs/modules/gateway/PaymentNetwork/admin/`
 3. In file `httpdocs/modules/gateway/PaymentNetwork/language/module.definitions.xml` change the following:
-	- Line 11: `<string name="payment_page_url_default"><![CDATA[e.g. https://gateway.example.com/hosted/]]></string>` change this URL to your gateway URL we supply
-	- Line 12: `<string name="payment_page_url_default_value"><![CDATA[https://gateway.example.com/hosted/]]></string>` change this URL to your gateway URL we supply
+	- Line 11: `<string name="payment_page_url_default"><![CDATA[e.g. https://commerce-api.handpoint.com/hosted/]]></string>` change this URL to your gateway URL we supply
+	- Line 12: `<string name="payment_page_url_default_value"><![CDATA[https://commerce-api.handpoint.com/hosted/]]></string>` change this URL to your gateway URL we supply
 4. In file `httpdocs/modules/gateway/PaymentNetwork/config.xml` change the following:
 	- Line 4: `	<uid>gateway-payment-network@cubecart.com</uid>` to your support email
 	- Line 8: `<description><![CDATA[Payment Network Payment Gateway]]></description>` changing Payment Network Payment Gateway to your brand name
@@ -43,7 +43,7 @@ To rebrand this module, complete the following steps:
 2. Log in to the Admin panel of your CubeCart Shop
 3. Click 'Payment Gateway' under the 'Module' subheading in the left hand menu
 4. Look for PaymentNetwork and click the checkbox to the left of the logo. Scroll down and click 'save'
-5. From the same screen, click the 'edit' icon to the right of the PaymentNetwork module. Ensure that the 'Status' and 'Default' boxes are checked. Your payment gateway URL should correctly be set to 'https://gateway.example.com/hosted/' by default. Fill in the relevant information in the boxes shown and click 'save'
+5. From the same screen, click the 'edit' icon to the right of the PaymentNetwork module. Ensure that the 'Status' and 'Default' boxes are checked. Your payment gateway URL should correctly be set to 'https://commerce-api.handpoint.com/hosted/' by default. Fill in the relevant information in the boxes shown and click 'save'
 6. Your PaymentNetwork payment module is now installed!
 
 License

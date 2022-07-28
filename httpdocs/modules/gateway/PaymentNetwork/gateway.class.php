@@ -4,7 +4,7 @@
         /**
          * Gateway Hosted API Endpoint
          */
-        const API_ENDPOINT_HOSTED = 'https://gateway.example.com/hosted/';
+        const API_ENDPOINT_HOSTED = 'https://commerce-api.handpoint.com/hosted/';
 
 		private $_module;
 		private $_basket;

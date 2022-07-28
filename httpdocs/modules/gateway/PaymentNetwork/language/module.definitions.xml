@@ -8,7 +8,7 @@
         <string name="embedded"><![CDATA[Embedded]]></string>
         <string name="modal"><![CDATA[Modal]]></string>
         <string name="payment_page_url"><![CDATA[Payment Page URL]]></string>
-        <string name="payment_page_url_default"><![CDATA[e.g. https://gateway.example.com/hosted/]]></string>
-        <string name="payment_page_url_default_value"><![CDATA[https://gateway.example.com/hosted/]]></string>
+        <string name="payment_page_url_default"><![CDATA[e.g. https://commerce-api.handpoint.com/hosted/]]></string>
+        <string name="payment_page_url_default_value"><![CDATA[https://commerce-api.handpoint.com/hosted/]]></string>
     </group>
 </definitions>
